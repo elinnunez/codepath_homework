@@ -1,2 +1,1 @@
-# codepath_homework
-cybersecurity homework assignments
+# See branches for assignments
