@@ -9,7 +9,7 @@
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
     
-  - [ ] GIF Walkthrough: <img src="cross_site_scripting.gif" alt="Cross-Site Scripting (XSS)">
+  - [ ] GIF Walkthrough: <img src="wp_xss.gif" alt="Cross-Site Scripting (XSS)">
   - [ ] Steps to recreate: You need an admin to approve a comment containing the embedded harmful html tag which I included below. If the comment text is long enough, it will be truncated when inserted in the database. The truncation results in malformed HTML generated on the page.
 
     `<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px AAAAAAAAAAAA     [64 kb] ...'></a>`
