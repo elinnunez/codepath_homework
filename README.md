@@ -34,3 +34,20 @@
       
   - [ ] Affected source code:
      `Home<script>alert("You Got Crossed);</script>)`
+     
+ ### 3. Title: WordPress Version < 4.7.5 Large File Upload Cross-Site Scripting (CVE-2017-9061)
+  - [ ] Summary: In WordPress before 4.7.5, a cross-site scripting (XSS) vulnerability exists when attempting to upload very large files, because the error message does not properly restrict presentation of the filename.
+  
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.4
+    
+  - [ ] GIF Walkthrough: <img src='' width='' alt='Video Walkthrough' />
+  - [ ] Steps to recreate:
+      - Create file greater than 20mb
+      - Rename file with ending extension of code below
+      - As admin go to dashboard then media upload
+      - Upload the affected name changed file
+      
+  - [ ] Affected source code:
+     `<img src=a onerror=alert(File Upload XSS)>.jpg`
