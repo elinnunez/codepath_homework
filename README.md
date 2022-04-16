@@ -10,7 +10,7 @@
     - Fixed in version: 4.2.1
     
   - [ ] GIF Walkthrough: <img src="wp_xss.gif" alt="Cross-Site Scripting (XSS)">
-  - [ ] Steps to recreate: You need to be an admin to create a title posts containing the harmful attachment name with script which is included below. Once posted, on refresh of the page an alert from the malicious script is triggered.
+  - [ ] Steps to recreate: You need to be an admin to create a title post containing the harmful attachment name with script which is included below. Once posted, on refresh of the page an alert from the malicious script is triggered.
 
     `cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)>.jpg`
 
