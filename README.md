@@ -24,7 +24,7 @@
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
     
-  - [ ] GIF Walkthrough: <img src='' width='' alt='Video Walkthrough' />
+  - [ ] GIF Walkthrough: <img src='cve_menu_xss.gif' width='' alt='Video Walkthrough' />
   - [ ] Steps to recreate:
       - Sign in as admin
       - Go to dashboard
