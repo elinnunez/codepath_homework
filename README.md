@@ -40,9 +40,9 @@
   
     - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 4.2.4
+    - Fixed in version: 4.7.5
     
-  - [ ] GIF Walkthrough: <img src='' width='' alt='Video Walkthrough' />
+  - [ ] GIF Walkthrough: <img src='file_upload_xss.gif' width='' alt='Video Walkthrough' />
   - [ ] Steps to recreate:
       - Create file greater than 20mb
       - Rename file with ending extension of code below
